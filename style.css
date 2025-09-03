@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+
+    background-size:cover ;
+    
+}
+.container{
+
+
+    width:80%;
+    margin: auto;
+   
+    
+}
+.img{
+    width: 20%;
+    height: auto;
+}
+.content{
+    display: flex;
+}
+
+.text{
+    padding-left: 30px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+
+}
+#Language{
+    padding: 12px 40px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    outline:none;
+   border: 1px whitesmoke ;
+    cursor: pointer;
+    
+   
+}
+.content-1 button{
+margin-left: 10px;
+padding:12px 40px ;
+ border-radius: 12px;
+   outline:none;
+    background-color: #0a9cdb;
+    border: 1px rgb(211, 211, 211) ;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.main-content-1{
+    display: flex;
+    margin-top: 40px;
+    padding: 0px;
+    gap: 4rem;
+    height:12vh ;
+   
+
+}
+#Language1{
+       padding: 12px 60px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    outline:none;
+   border: 1px solid lightgray;
+    cursor: pointer;
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+#Currency{
+          padding: 12px 60px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    outline:none;
+   border: 1px solid lightgray;
+    cursor: pointer;
+    margin-top: 20px;  
+}
+.select3 button{
+    margin-left: 90px;
+}
+.btn
+
+{
+
+height: 20%;
+}
+.btn button{
+
+padding:12px 40px ;
+ border-radius: 12px;
+   outline:none;
+    background-color: #0a9cdb;
+    border: 1px rgb(211, 211, 211) ;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.main-content-1 h1{
+   font-size: 17px;
+   text-align: center;
+}
+.main-section{
+    display: flex;
+        
+
+    border-radius: 12px;
+   flex-wrap: wrap;
+   padding: 0px 40px;
+   
+}
+.main-block{
+background-color: aliceblue;
+ 
+   width: 100%;
+    margin:25px 0;
+}
+.main-block1{
+   width: 90%;
+   margin:  30px auto;
+   
+}
+.container1{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 90px;
+}
+.voice-recorder{
+    display: flex;
+  padding: 18px 15px;
+    margin: 30px 0px;
+        width: 100%;
+    height: 500px;
+   
+    flex-direction: column;
+   border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    box-shadow:  -14px 8px 14px -20px  black;
+}
+.voice-recorder1{
+    display: flex;
+  padding: 30px 15px 10px 15px;
+    margin: 20px 0px;
+        width: 100%;
+    height: 500px;
+   
+    flex-direction: column;
+   border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    box-shadow:  -14px 8px 14px -20px  black;
+}
+.voice-recorder1 main{
+    padding-top: 30px;
+}
+.gst-calculator{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.gst-voice{
+  align-items: center;
+  justify-content: center;
+   display: flex;
+   margin: 20px;
+}
+#btn2{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   border-radius: 20px;
+}
+#btn2:hover{
+   
+    background-color: skyblue;
+}
+
+.gst-voice img{
+
+    max-width: 40%;
+    height: auto;
+
+    
+}
+
+.text1{
+ margin: 20px 0px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.text1 input{
+    width: 100%;
+    padding: 18px;
+   outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+#box1{
+    margin:30px auto;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 20px 40px 20px 40px;
+}
+#box1 input{
+    padding: 12px 40px;
+    outline: none;
+    border-radius:12px;
+ border: 1px solid gray; 
+    margin: 20px;
+   
+}
+
+.gst-box{
+    display: flex;
+  
+}
+.gst-box select{
+    padding: 10px 30px;
+    margin-left: 25px;
+      border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+#box1 button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin: 30px auto;
+    display: flex;
+    font-size: 16px;
+}
+#box1 button:hover{
+    background-color: lightseagreen;
+    color: #fff;
+}
+#search-box, #category-filter {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  margin: 5px;
+  outline: none;
+}
+#search-box1{
+    width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+#search-box1 button{
+     margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  
+  cursor: pointer;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#search-btn:hover{
+    background-color:blue;
+}
+
+#results {
+  margin: 4em auto;
+  background-color: #fff;
+  padding: 1em;
+  width: 78%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.HSN-Finder{
+    display: flex;
+  gap: 2rem;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+    
+}
+.HSN-Finder input{
+    outline: none;
+}
+
+#code-box{
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  margin: 5px;
+}
+#code-search-btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  
+  cursor: pointer;
+  background-color:gainsboro;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+#code-search-btn:hover{
+    background-color: slateblue;
+    color: #fff;
+}
+#code-speak-btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  
+  cursor: pointer;
+  background-color:gainsboro;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+#code-speak-btn:hover{
+    background-color: slateblue;
+    color: #fff;
+}
+.HSN-Code{
+    
+      display: flex;
+  gap: 2rem;
+  margin-top: 30px;
+ align-items: center;
+ margin-left: 130px;
+
+   
+}
+.HSN-Code input{
+    outline: none;
+}
+@media(max-width:1440px){
+
+    .btn button{
+
+
+   margin-top: 80px;
+    margin-left: 60px;
+}
+.HSN-Code{
+    
+margin-left: 15px;
+}
+#results {
+  
+  width: 98%;
+ 
+}
+
+}
